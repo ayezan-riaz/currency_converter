@@ -1,0 +1,48 @@
+/* Success Snackbar */
+.success-snackbar {
+    background-color: #4caf50; /* Green background */
+    color: white;
+  }
+  
+  /* Error Snackbar */
+  .error-snackbar {
+    background-color: #f44336; /* Red background */
+    color: white;
+  }
+  
+  /* Info Snackbar */
+  .info-snackbar {
+    background-color: #2196f3; /* Blue background */
+    color: white;
+  }
+  
+  .mat-snack-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ::ng-deep button.full-width.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-disabled.mat-mdc-button-base {
+    background-color: red !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+  }
+  
+
+::ng-deep mat-progress-bar {
+    height: 8px; 
+    background-color: black !important; 
+    border: #f44336;
+  }
+  
+  ::ng-deep .mat-progress-bar-background {
+    background-color: white !important; 
+    border: #f44336;
+  }
+  
+  ::ng-deep .mat-progress-bar-fill {
+    background-color: black !important;
+    border: #f44336;
+  }
+  

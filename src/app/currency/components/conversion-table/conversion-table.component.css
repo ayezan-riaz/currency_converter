@@ -1,0 +1,18 @@
+::ng-deep .mat-mdc-header-row {
+    background-color: black !important;
+    color: white !important;
+ 
+}
+
+
+
+::ng-deep .mat-mdc-cell {
+    border: 2px solid #a7a6a6;
+    border-bottom: #242323;
+    background-color: rgb(238, 236, 236);
+}
+
+
+::ng-deep .mat-mdc-row {
+    border: 2px solid #b2abab;
+}

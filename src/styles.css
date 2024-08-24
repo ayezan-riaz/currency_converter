@@ -1,0 +1,126 @@
+
+  .currency-converter {
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 600px;
+    margin-top: 50px;
+
+  }
+  .heading{
+    color: #f11607;
+    font-weight: bold;
+    text-align: center;
+  }
+  .mat-elevation-z8 {
+    margin-top: 20px;
+    background: rgb(245, 245, 245);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+
+  mat-form-field {
+    width: 100%;
+  }
+  
+
+  button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+
+  .conversion-history {
+    overflow-x: auto;
+    padding: 16px;
+  }
+  
+  .conversion-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th.mat-header-cell {
+    background-color: black;
+    color: white;
+  }
+  
+  td.mat-cell {
+    padding: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    th.mat-header-cell, td.mat-cell {
+      padding: 6px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .currency-converter {
+      padding: 12px;
+      margin: 10px auto;
+      max-width: 100%;
+    }
+  
+    button {
+      margin-top: 12px;
+    }
+  
+    th.mat-header-cell, td.mat-cell {
+      padding: 4px;
+      font-size: 10px;
+    }
+  }
+  
+
+
+  .success-snackbar .mdc-snackbar__surface {
+    background-color: #1fc41f !important;
+    color: black !important;
+    border-radius: 0 !important;
+    border: 1px solid #1fc41f !important;
+  }
+  
+  .error-snackbar .mdc-snackbar__surface {
+    background-color: #f44336 !important;
+    color: black !important;
+    border-radius: 0 !important;
+    border: 1px solid #f44336 !important;
+  }
+  
+
+  .info-snackbar .mdc-snackbar__surface {
+    background-color: #469fe7 !important;
+    color: black !important;
+    border-radius: 0 !important;
+    border: 1px solid #2196f3 !important;
+  }
+  
+
+  .snackbar-action-white .mat-mdc-button-base {
+    color: white !important; 
+  }
+  
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f00; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c00;
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f00 #000; 
+}
