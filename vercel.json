@@ -1,0 +1,12 @@
+{
+    "build": {
+      "command": "ng build",
+      "output": "dist"
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
